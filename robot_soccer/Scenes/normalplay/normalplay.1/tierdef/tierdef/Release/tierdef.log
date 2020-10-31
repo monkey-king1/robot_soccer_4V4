@@ -1,0 +1,89 @@
+﻿Build started 2019/5/25 13:43:57.
+     1>Project "C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\tierdef.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\\worldmodel_lib" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TIERDEF_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt src\tierdef.cpp src\utils\maths.cpp
+         tierdef.cpp
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\vector.h(662): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(125): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(129): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(133): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(137): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(141): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>src\tierdef.cpp(5): warning C4190: 'player_plan' has C-linkage specified, but returns UDT 'PlayerTask' which is incompatible with C
+                 c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\PlayerTask.h(30) : see declaration of 'PlayerTask'
+     1>src\tierdef.cpp(17): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>src\tierdef.cpp(19): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>src\tierdef.cpp(74): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\tierdef.cpp(74): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\tierdef.cpp(76): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\tierdef.cpp(76): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\tierdef.cpp(90): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\tierdef.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\tierdef.cpp(92): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>src\tierdef.cpp(92): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\util.h(128): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+                 src\tierdef.cpp(24) : see reference to function template instantiation 'real anglemod<float>(real)' being compiled
+                 with
+                 [
+                     real=float
+                 ]
+         maths.cpp
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\vector.h(662): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(125): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(129): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(133): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(137): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\game_state.h(141): warning C4800: 'const int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>src\utils\maths.cpp(6): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(7): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(8): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(9): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(10): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(11): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(12): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(13): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(14): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(15): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(16): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(17): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(18): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(19): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(20): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(21): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(29): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(31): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>src\utils\maths.cpp(33): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>src\utils\maths.cpp(43): warning C4244: 'argument' : conversion from 'const double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(51): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>src\utils\maths.cpp(70): warning C4018: '<' : signed/unsigned mismatch
+     1>src\utils\maths.cpp(79): warning C4018: '<' : signed/unsigned mismatch
+     1>src\utils\maths.cpp(95): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(96): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\utils\maths.cpp(152): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\util.h(119): warning C4244: '-=' : conversion from 'double' to 'float', possible loss of data
+                 src\utils\maths.cpp(62) : see reference to function template instantiation 'real angle_mod<num>(real)' being compiled
+                 with
+                 [
+                     real=float
+         ,            num=float
+                 ]
+     1>c:\users\28195\desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\src\utils\vector.h(513): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 src\utils\maths.cpp(128) : see reference to function template instantiation 'vector Vector::point_on_segment<point2f>(const vector,const vector,const vector,bool)' being compiled
+                 with
+                 [
+                     vector=point2f
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\\worldmodel_lib" worldmodel_lib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.lib" /MACHINE:X86 /SAFESEH /DLL Release\tierdef.obj
+         Release\maths.obj
+         worldmodel_lib\worldmodel_lib.lib
+            Creating library C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.lib and object C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.exp
+         Generating code
+         Finished generating code
+     1>worldmodel_lib.lib(worldmodel.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'worldmodel_lib.lib(worldmodel.obj)' or at 'C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\vc120.pdb'; linking object as if no debug info
+         tierdef.vcxproj -> C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\Release\tierdef.dll
+     1>Done Building Project "C:\Users\28195\Desktop\场景\普通攻防2.0\normalplay_1\tierdef\tierdef\tierdef.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.20
