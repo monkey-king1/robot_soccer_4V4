@@ -1,1 +1,1 @@
-*.md linguist-language=C
+*.c linguist-language=C
