@@ -1,4 +1,4 @@
-# robor_soccer_4V4
+# robot_soccer_4V4
 2019年浙江省机器人竞赛足球4V4对抗赛一等奖的skill和task部分开源代码  
 具体代码在main下面的master分支里面  
 Scenes文件夹里面是skill文件，_def和_kick分别是防守和进攻的lua文件  
